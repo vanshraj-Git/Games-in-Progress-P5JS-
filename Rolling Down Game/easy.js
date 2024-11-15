@@ -13,8 +13,8 @@ function draw() {
   describe('A white circle on a black canvas.');
   if(ismoving==true)
   {
-  x=x-1;
-  y=y+1;
+  x=x-1.5;
+  y=y+1.5;
   }
   if(x>=0){
   textSize(32);
